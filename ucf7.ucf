@@ -1,0 +1,34 @@
+# Pinouts for Nexys2 Board  (Spartan3-500E)
+
+# Start I/O Pin Assignments
+NET "clk"            LOC = "B8"   ; 
+                      
+# Slide Switches        
+NET "dump_mem"          LOC = "G18"  ;  
+NET "dump_mem" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "ad_sel"          LOC = "R17"  ; 
+
+# LED's
+NET "C"    LOC = "j14"  ; 
+NET "N"    LOC = "j15"  ; 
+NET "Z"    LOC = "k15"  ; 
+                       
+# Push Buttons        
+NET "step_clk"         LOC = "B18"  ;  
+NET "step_mem"         LOC = "D18"  ; 
+NET "rst"         	  LOC = "H13"  ;
+NET "rst" CLOCK_DEDICATED_ROUTE = FALSE;                       
+							  
+# 7-segment Display   
+NET "anodes[0]"       LOC = "F17"  ;
+NET "anodes[1]"       LOC = "H17"  ;
+NET "anodes[2]"       LOC = "C18"  ;
+NET "anodes[3]"       LOC = "F15"  ;
+
+NET "a"              LOC = "L18"  ;
+NET "b"              LOC = "F18"  ;
+NET "c"              LOC = "D17"  ;
+NET "d"              LOC = "D16"  ;
+NET "e"              LOC = "G14"  ;
+NET "f"              LOC = "J17"  ;
+NET "g"              LOC = "H14"  ;
